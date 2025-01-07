@@ -8,7 +8,7 @@ with sync_playwright() as playwright:
     #browser = playwright.msedge.launch(headless=False, slow_mo=4000)
     page = browser.new_page()
 
-    page.goto(""https://bootswatch.com/default/"")
+    page.goto("https://bootswatch.com/default/")
 
     print("You're on:", page.title)
 
